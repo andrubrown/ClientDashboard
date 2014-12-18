@@ -1,0 +1,1 @@
+output$PlotTest <- source("graphs/ClaimsGraph.R", local = T)$value
