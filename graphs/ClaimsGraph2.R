@@ -1,6 +1,6 @@
 
 
-dataRead <- "//mizazaycensql01/SCMBIR/Client Dashboard/DataIn"
+dataRead <- "DataIn"
 setwd(dataRead)
 
 tl <- list.files(getwd())
@@ -36,3 +36,4 @@ p1a <- ggplot(cl, aes(x = PrimaryCauseDescription, y= TotalPaidOut, fill = Prima
 p1a
  return(p1a) 
 }
+
